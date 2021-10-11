@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Experimental.System.Messaging" Version="1.1.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+		<PackageReference Include="NLog" Version="4.7.9" />
+		<PackageReference Include="StyleCop.MSBuild" Version="6.2.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="System.ServiceModel.Http" Version="4.8.1" />
+		<PackageReference Include="System.ServiceModel.Primitives" Version="4.8.1" />
+		<None Include="Settings.StyleCop" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Enforcement.Domain\Enforcement.Domain.csproj" />
+		<ProjectReference Include="..\KeyVault\KeyVault.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="System.ServiceModel" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <WCFMetadata Include="Connected Services" />
+	</ItemGroup>
+
+
+</Project>

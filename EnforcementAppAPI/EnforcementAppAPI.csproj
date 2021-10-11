@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+		<StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
+		<UserSecretsId>6d619362-c72e-46cd-8f3d-89935ec939d0</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="QRCoder" Version="1.4.1" />
+		<PackageReference Include="StyleCop.MSBuild" Version="6.2.0">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.2" />
+		<None Include="Settings.StyleCop" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Enforcement.BLL\Enforcement.BLL.csproj" />
+	  <ProjectReference Include="..\TokenProvider\TokenProvider.csproj" />
+	  <ProjectReference Include="..\Utilities\Utilities.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Common\" />
+	  <Folder Include="Upload\AssetImages\" />
+	  <Folder Include="wwwroot\" />
+	</ItemGroup>
+
+
+</Project>

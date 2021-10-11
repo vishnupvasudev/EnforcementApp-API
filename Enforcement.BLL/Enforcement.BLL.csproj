@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="StyleCop.MSBuild" Version="6.2.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<None Include="Settings.StyleCop" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Enforcement.DAL\Enforcement.DAL.csproj" />
+	  <ProjectReference Include="..\Enforcement.Domain\Enforcement.Domain.csproj" />
+	  <ProjectReference Include="..\Utilities\Utilities.csproj" />
+	</ItemGroup>
+
+</Project>
