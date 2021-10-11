@@ -21,8 +21,8 @@ curl -X 'POST' \
   -H 'accept: text/plain' \
   -H 'Content-Type: application/json' \
   -d '{
-  "username": "vishnu.v@gmail.com",
-  "password": "Initial#01"
+  "username": "vishnuxxx.v@gmail.com",
+  "password": "xxxxxxxxx"
 }'
 ```
 
@@ -33,7 +33,7 @@ curl -X 'POST' \
     "encUserID": "Qh1rs_Vfb$4@",
     "name": "Vishnu Vasudevan",
     "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlZpc2hudSBWYXN1ZGV2YW4iLCJuYW1laWQiOiJRaDFyc19WZmIkNEAiLCJuYmYiOjE2MzM5ODc5MDksImV4cCI6MTc1ODQwMzkwOSwiaWF0IjoxNjMzOTg3OTA5fQ.HXErwKw-UwvA8NTVH5pdtTtOizaiy9i4e9z8bigVie4",
-    "emailID": "vishnu.v@gmail.com",
+    "emailID": "vishnuxxx.v@gmail.com",
     "phoneNumber": "43543535345345"
   },
   "status": true,
