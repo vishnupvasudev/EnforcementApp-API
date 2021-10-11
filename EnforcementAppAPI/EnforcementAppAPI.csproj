@@ -26,7 +26,6 @@
 	<ItemGroup>
 	  <Folder Include="Common\" />
 	  <Folder Include="Upload\AssetImages\" />
-	  <Folder Include="wwwroot\" />
 	</ItemGroup>
 
 
